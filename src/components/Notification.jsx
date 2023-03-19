@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const { Component } = require('react');
 
 class Notification extends Component {
@@ -6,5 +7,9 @@ class Notification extends Component {
     return <p>{message}</p>;
   }
 }
+
+Notification.propTypes = {
+  message: PropTypes.string,
+};
 
 export default Notification;

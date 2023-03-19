@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const { Component } = require('react');
 
 class FeedbackOptions extends Component {
@@ -17,5 +18,10 @@ class FeedbackOptions extends Component {
     );
   }
 }
+
+FeedbackOptions.propTypes = {
+  onLeaveFeedback: PropTypes.func,
+  options: PropTypes.array,
+};
 
 export default FeedbackOptions;
