@@ -1,7 +1,7 @@
-import Statistics from './Statistics';
-import FeedbackOptions from './FeedbackOptions';
+import Statistics from './statistics/Statistics';
+import FeedbackOptions from './feedbackOptions/FeedbackOptions';
 import Section from './section/Section';
-import Notification from './Notification';
+import Notification from './notification/Notification';
 import css from './App.module.css';
 const { Component } = require('react');
 
